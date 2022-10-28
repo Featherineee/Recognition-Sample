@@ -5,7 +5,7 @@ import keyboard
 import random
 import pyautogui as gui
 
-def c(x,y): //Aim And Click Properties
+def c(x,y): #Aim And Click Properties
     win.SetCursorPos((x,y))
     win.mouse_event(con.MOUSEEVENTF_LEFTDOWN,0,0)
     time.sleep(0.1)
@@ -13,7 +13,7 @@ def c(x,y): //Aim And Click Properties
 
 while keyboard.is_pressed('q') == False:
 
-    if gui.pixel(580, 400) [0] == 0: //Input Your Own Game Pixel
+    if gui.pixel(580, 400) [0] == 0: #Input Your Own Game Pixel
         c(581, 400)
     if gui.pixel(680, 400) [0] == 0:
         c(682, 400)
